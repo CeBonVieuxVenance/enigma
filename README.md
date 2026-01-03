@@ -9,3 +9,8 @@ L'objectif ici est vraiment de se renseigner sur l'aspect technique de la machin
 
 Bien évidemment cela est vrai pour une machine Enigma électro-mécanique dands le cas du code, le clavier est remplacé par un texte directement donné à l'éxecution.
 
+Dans le fonctionnement originel, un input dans le clavier passe par une substitution  mono-alphabétique avant de passer dans 3 à un nombre voulu de rotor avant de resubire une substitution  mono-alphabétique.
+
+A chaque input le premier rotor avance de 1 (ex : A --> B) au bout de 26 itérations le 2nd rotor avance de 1 et ainsi de suite. Dans la machine de base, un set prédéfinie de rotors était donné chacun ayant une subsitution donnée.  
+
+Pour résumé chaque input subit 7-9 modifications avant l'output.
